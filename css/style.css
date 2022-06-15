@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://fondosmil.com/fondo/26735.jpg);
+    background-attachment: fixed;
+}
+
+/* NAV STYLES */
+.navbar-brand {
+    animation-name: girando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.navbar {
+    background-color: #363062 !important;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    border: solid 2px #827397;
+    margin: 3px;
+    transition: .5s;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #827397;
+    color: white;
+    transform: scale(1.4);
+}
+
+/* HEADER STYLES */
+.header {
+
+
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+
+
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+.header p {
+
+    border-radius: 10px;
+    max-width: 50%;
+    color: rgb(0, 0, 0);
+
+    margin: auto;
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: 0.4;
+    font-weight: 800;
+
+
+}
+
+.separador {
+    height: 4px;
+    background-color: #363062;
+}
+
+/* SECT 1 STYLES */
+.pSize2 {
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4.4em;
+
+    border: solid black 2px;
+
+
+}
+
+.imgSize1 {
+    width: 40em;
+
+}
+
+.buttonStyle {
+    font-size: 2em;
+    background-image: linear-gradient(to left, #4D4C7D, #827397);
+    color: rgb(0, 0, 0);
+    background-color: #E9D5CA;
+    border-radius: 35px;
+    padding: 1em;
+    font-weight: bold;
+    transition: 1s;
+    margin-left: 450px;
+    margin-bottom: 2em;
+}
+
+
+.buttonStyle:hover {
+    font-size: 2em;
+    background-color: rgb(209, 13, 105);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+
+
+}
+
+/* FOOTER STYLE */
+.footer {
+    flex-direction: column;
+}
+
+.divFooterMod1 {
+    margin-right: 3em;
+}
+
+.divFooterMod2 {
+    margin-right: 3em;
+}
+
+.divFooterMod1 img {
+    width: 100px;
+    animation-name: girando;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.footer {
+
+    display: flex;
+    background-color: #827397;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.footer a img {
+    width: 40px;
+
+}
+
+
+
+
+.footer p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 700;
+
+}
+
+/* MATERIAS STYLES */
+.titleMaterias {
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    max-width: 100%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.accordion {
+    max-width: 80%;
+    text-align: center;
+    opacity: 0.8;
+    margin: auto;
+    --bs-accordion-bg: #363062;
+    --bs-accordion-color: white;
+    --bs-accordion-btn-color: #ffffff;
+
+}
+
+.accordion-button {
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.accordion-button:focus {
+    border-color: #363062;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #4D4C7D;
+}
+
+/* AGENDA STYLES */
+.focusH1Style {
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    max-width: 100%;
+    text-align: center;
+    opacity: 0.9;
+}
+
+table {
+    font-size: 1.5em;
+    width: 800px;
+    color: black;
+    font-weight: 600;
+    border: solid #363062 3px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.transparent {
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+tbody {
+    border: solid #363062 2px;
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+    border: solid #363062 2px;
+}
+
+th {
+    text-align: center;
+    justify-content: center;
+}
+
+caption {
+    text-align: center;
+}
+
+.centerDiv1 {
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.section2 img {
+    width: 700px
+}
+
+.section2 select {
+    width: 250px;
+    text-align: center;
+    height: 60px;
+    font-size: 1.5em;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: #363062;
+    color: white;
+    font-weight: 600;
+
+}
+
+.labelStyle {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.titleMaterias {
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 1em;
+    margin-bottom: .5em;
+
+}
+
+.pSize3 {
+    font-size: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 900;
+}
+
+.buttonStyle2 {
+    margin-top: 2em;
+    font-size: 1em;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    background-color: #E9D5CA;
+    border-radius: 20px;
+    padding: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    transition: 1s;
+
+}
+
+.buttonStyle2:hover {
+    font-size: 1em;
+    background-color: rgb(209, 13, 105);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+
+
+}
+
+/* FOCUS STYLE */
+/* CONTACTO STYLES */
+.section4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+
+.section4 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+.articleMod3 {
+    display: flex;
+
+    text-align: left;
+    margin-top: 3em;
+
+}
+
+.articleMod3 select {
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.articleMod3 textarea {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+
+.articleMod3 input {
+    border: solid 2px black;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: .5s;
+
+}
+
+.articleMod3 input:focus {
+    transform: scale(1.2);
+    border-color: #363062;
+}
+
+.articleMod3 input::placeholder {
+    text-align: center;
+}
+
+.imgSize2Contact {
+    width: 300px;
+    margin-left: 25em;
+    margin-top: 10em;
+
+
+}
+
+.textMargEdit {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.textMargEdit2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.6em;
+}
+
+
+.formMod {
+    display: flex;
+    flex-direction: column;
+    max-width: 18em;
+    text-align: left;
+    align-items: center;
+    margin-right: 3em;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.pSize1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    border: solid #363062 2px;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+
+
+}
+
+/* KEYFRAMES */
+@keyframes girando {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1200px) {
+    div a button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .header p {
+        display: none;
+    }
+
+
+}
+
+/* MEDIA QUERY Mobile last 480px */
+@media (max-width: 480px) {
+
+
+    /* FOFUCS STYLE */
+
+    .carousel-item iframe {
+        width: 480px;
+    }
+
+    /* AGENDA */
+    .section1 article table {
+        width: 100px
+    }
+
+    /* CONTACTO STYLE */
+    .focusH1Style {
+        padding: 0px;
+        margin: auto;
+        
+    }
+   
+
+    .pSize1 {
+        width: 300px;
+        margin: auto;
+        margin-right: 3em;
+    }
+
+    .section4 {
+        align-items: center;
+        
+    }
+
+    .container section iframe {
+        display: none;
+    }
+
+    .imgSize2Contact {
+        display: none;
+    }
+.articleMod3{
+    justify-content: center;
+}
+    .articleMod3 textarea {
+        margin: 1em;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .textMargEdit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+.tablaStyle{
+    width: 20px
+    
+}
+}
+
+@media (max-width: 1200px){
+    .imgSize2Contact{display: none;}
+    textarea{
+        width: 500px;
+    }
+    .articleMod3{margin-left: 5.8em;}
+}
+
+        
+       
